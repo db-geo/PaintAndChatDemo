@@ -1,9 +1,14 @@
-package com.example.demo;
+package fr.imt.ales.cepi.demo.chat;
 
 public class Message {
     private String from;
     private String to;
     private String content;
+
+    public Message(String from, String content) {
+        this.from = from;
+        this.content = content;
+    }
 
     @Override
     public String toString() {

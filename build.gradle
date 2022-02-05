@@ -3,8 +3,8 @@ plugins {
     id 'war'
 }
 
-group 'com.example'
-version '1.0-SNAPSHOT'
+group 'fr.imt.ales.cepi.demo'
+version '1.0'
 
 repositories {
     mavenCentral()

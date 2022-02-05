@@ -33,7 +33,7 @@ class Point {
 }
 
 /** A class for drawing in a canvas : draw a line on mouse dragged */
-class Draw {
+class Paint {
     /** the reference of the canvas */
     #canvas;
     /** last dragging location */
@@ -71,7 +71,7 @@ class Draw {
     }
 
     /**
-     * Draw a line between the last location and the location denoted by e
+     * Paint a line between the last location and the location denoted by e
      * @param e the event containing the coordinates
      */
     #draw(e) {
